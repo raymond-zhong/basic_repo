@@ -1,0 +1,26 @@
+mkdir A4
+cd A4
+git init basic_repo
+touch index.html
+touch styles.css
+mkdir images
+subl index.html
+subl styles.css
+open index.html
+git status
+git add .
+git commit -m 'added html and css files'
+git remote add origin https://github.com/raymond-zhong/basic_repo.git
+git push -u origin master
+git status
+git log
+subl index.html
+subl styles.css
+open index.html
+git add .
+git commit -m 'made more changes.'
+git push origin master
+touch steps.txt
+open steps.txt
+subl steps.txt
+history
